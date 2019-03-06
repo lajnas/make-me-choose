@@ -12,9 +12,10 @@ font-family: sans-serif;
 h1 {
 font-weight: bold;
 font-size: 30px;
+font-family: "optima", sans-serif;
 letter-spacing: 0px;
 margin-bottom: 0px;
-color: #ffebd3;
+color: #ffebd3; /*ljusljusrosa*/
 }
 
 .inputSection {
@@ -30,24 +31,33 @@ width: 400px;
 
 input{
   margin-top: 10px;
-  border: 0px;
-  border-radius: 0px;
-  background-color: white;
+  border: none;
+  border-bottom: 2px solid #ffb4ac;
+  background-color: #264e70;
   height: 24px;
   padding: 4px;
+outline: none;
+color:#ffb4ac;
+font-size: 15px;
+font-family: "optima", sans-serif;
 }
 
-
 .addOption{
-  margin-top: 10px;
-  background-color: #ffb4ac; /*ljusrosa*/
+  margin-top: 5px;
+  background-color: #ffb4ac; /*rosa*/
   color: white;
-  padding: 15px 32px;
+  padding: 0px 0px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 50px;
+  font-weight: lighter;
   border: none;
+width: 50px;
+height: 50px;
+line-height: 50px;
+border-radius: 50%;
+outline: none;
 }
 
 .goOption{
@@ -60,4 +70,6 @@ input{
  text-decoration: none;
  display: inline-block;
  font-size: 16px;
+ outline: none;
+ font-family: "optima", sans-serif;
 }
