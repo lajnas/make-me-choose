@@ -62,7 +62,7 @@ font-family: "optima", sans-serif;
   opacity: 1;
   transition: 0.3s;
 }
-.addOption:hover {opacity: 0.8}
+.addOption:hover {opacity: 0.7}
 
 .submit{
   margin-top: 10px;
@@ -79,7 +79,7 @@ font-family: "optima", sans-serif;
  opacity: 1;
  transition: 0.3s;
 }
-.submit:hover {opacity: 0.8}
+.submit:hover {opacity: 0.7}
 
 .resultSection{
 height: 300px;
